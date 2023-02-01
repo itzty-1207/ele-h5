@@ -1,0 +1,18 @@
+1. 适配作用
+- 移动端适配影响用户获取的信息量和体验
+
+2. 适配方案
+- media
+- rem根据html字体大小
+- vw
+
+3. rem
+- rem根据当前属性大小按照根节点htm的fontszie等比例计算
+- 默认16px = 1rem
+- 将css属性从px改成rem
+- 动态获取用户设备的屏幕宽度
+- 使用post-css将px转换为rem
+
+4. 插件
+- autoprefixer：自动管理css属性的浏览器前缀
+- postcss-pxtorem：px转换为rem
