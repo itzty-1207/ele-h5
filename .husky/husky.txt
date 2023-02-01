@@ -1,0 +1,18 @@
+1. 为什么需要 commitlint
+- 通过 commit 来回顾项目开发进展
+- 回退版本
+
+2. 如何规范
+- 提供一套规范约束项目的commit信息
+- 在提交commit的时候自动校验
+
+3. 规范信息
+type(scope?):subject
+- type表示commit类型 | scope可选标识commit修改的模块范围 | subject描述commit详细说明
+- type值包括：build、chore、ci、docs、feat、fix、perf、refactor、revert、style、test
+
+4.步骤
+- 首先初始化git仓库并拉取到本地
+- npx husky-init && npm install 创建husky hooks并安装到package.json
+- yarn add @commitlint/config-conventional @commitlint/cli -D 安装包去配置commitlint
+- echo "module.exports = {extends: ['@commitlint/config-conventional']}" > commitlint.config.js 创建commitlint.config.js文件
