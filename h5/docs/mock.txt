@@ -1,0 +1,8 @@
+1. json-server
+- 通过json-server命令启动服务
+- 通过module将json-server引入到自己node服务
+
+2. 流程
+- 自定义逻辑controller与service、处理请求逻辑router与middleware、轻量级mockserver框架json-server、nodejs的web应用框架express
+- middleware：中间件处理所有请求如鉴权、静态资源等功能 | service
+- router：带路有url中间件，处理特定路由url请求 | controller
