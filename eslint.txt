@@ -1,0 +1,11 @@
+1. eslint作用
+- 在运行代码前发现语法错误以及潜在bug
+- 适合指定团队代码规范
+- 三个等级off、warn、error
+
+2. prettier
+- 代码格式化工具，检测代码中格式问题
+
+3. 在eslintrc.js与prettierrc.js中配置规则
+
+4. 配置规则后ctrl+shift+p 执行reload window命令
