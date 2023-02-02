@@ -1,6 +1,16 @@
+<script setup lang="ts">
+import TheTop from './components/TheTop.vue'
+
+const recommits = [
+  { value: 1, label: '牛腩' },
+  { value: 2, label: '色拉' },
+]
+</script>
+
 <template>
-  <div>home</div>
-  <div class="test">我是帅哥我是帅哥我是</div>
+  <div class="home-page">
+    <TheTop :recommits="recommits" />
+  </div>
 </template>
 
 <style>

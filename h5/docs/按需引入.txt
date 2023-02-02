@@ -1,0 +1,9 @@
+1. vant默认支持tree-shaking
+- 移除无用的资源，包括JS代码、CSS文件
+- 通过import与export分析，export了几个，import了几个，去除冗余
+
+2. 按需引用
+- unplugin-vue-components
+- vite.config.js中配置
+- 直接在模板中使用Vant组件
+- 函数组件需特殊引用样式
